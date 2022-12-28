@@ -23,7 +23,7 @@ namespace ZDG_TC
             }
 
             // アプリの名前
-            ProductName.Text = assm.GetName().Name;
+            ProductNameValue.Text = assm.GetName().Name;
 
             // アプリのバージョン
             VersionValue.Text = assm.GetName().Version.ToString();

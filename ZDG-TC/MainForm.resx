@@ -120,7 +120,68 @@
   <metadata name="MainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MenuFileRedetect.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+R</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MenuFileRedetect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="MenuFileRedetect.Text" xml:space="preserve">
+    <value>再検出(&amp;R)</value>
+  </data>
+  <data name="MenuFileSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 6</value>
+  </data>
+  <data name="MenuFileQuit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="MenuFileQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="MenuFileQuit.Text" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="MenuFile.ShortcutKeyDisplayString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="MenuFile.Text" xml:space="preserve">
+    <value>ファイル(&amp;F)</value>
+  </data>
+  <data name="MenuHelpHomePageYuzulia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="MenuHelpHomePageYuzulia.Text" xml:space="preserve">
+    <value>Yuzuliaサイト</value>
+  </data>
+  <data name="MenuHelpHomePageYuzuRyo61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="MenuHelpHomePageYuzuRyo61.Text" xml:space="preserve">
+    <value>YuzuRyo61.me</value>
+  </data>
+  <data name="MenuHelpHomePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="MenuHelpHomePage.Text" xml:space="preserve">
+    <value>作者のホームページ</value>
+  </data>
+  <data name="MenuHelpVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="MenuHelpVersion.Text" xml:space="preserve">
+    <value>バージョン情報(&amp;A)</value>
+  </data>
+  <data name="MenuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="MenuHelp.Text" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
   <data name="MainMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -141,62 +202,16 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainMenu.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="MenuFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value />
-  </data>
-  <data name="MenuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 20</value>
-  </data>
-  <data name="MenuFile.Text" xml:space="preserve">
-    <value>ファイル(&amp;F)</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MenuFileQuit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+F4</value>
-  </data>
-  <data name="MenuFileQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuFileQuit.Text" xml:space="preserve">
-    <value>終了(&amp;X)</value>
-  </data>
-  <data name="MenuHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
-  </data>
-  <data name="MenuHelp.Text" xml:space="preserve">
-    <value>ヘルプ(&amp;H)</value>
-  </data>
-  <data name="MenuHelpHomePage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuHelpHomePage.Text" xml:space="preserve">
-    <value>作者のホームページ</value>
-  </data>
-  <data name="MenuHelpHomePageYuzulia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuHelpHomePageYuzulia.Text" xml:space="preserve">
-    <value>Yuzuliaサイト</value>
-  </data>
-  <data name="MenuHelpHomePageYuzuRyo61.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuHelpHomePageYuzuRyo61.Text" xml:space="preserve">
-    <value>YuzuRyo61.me</value>
-  </data>
-  <data name="MenuHelpVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="MenuHelpVersion.Text" xml:space="preserve">
-    <value>バージョン情報(&amp;A)</value>
+    <value>3</value>
   </data>
   <metadata name="StatusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>133, 17</value>
   </metadata>
   <data name="StatusBarMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
+    <value>47, 17</value>
+  </data>
+  <data name="StatusBarMessage.Text" xml:space="preserve">
+    <value>[Status]</value>
   </data>
   <data name="StatusBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 379</value>
@@ -217,113 +232,62 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;StatusBar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="MainTabControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;MainTabSettings.Name" xml:space="preserve">
-    <value>MainTabSettings</value>
-  </data>
-  <data name="&gt;&gt;MainTabSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainTabSettings.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="&gt;&gt;MainTabSettings.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;MainTabTest.Name" xml:space="preserve">
-    <value>MainTabTest</value>
-  </data>
-  <data name="&gt;&gt;MainTabTest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainTabTest.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="&gt;&gt;MainTabTest.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="MainTabControl.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 27</value>
-  </data>
-  <data name="MainTabControl.Size" type="System.Drawing.Size, System.Drawing">
-    <value>624, 349</value>
-  </data>
-  <data name="MainTabControl.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
-  </data>
-  <data name="&gt;&gt;MainTabControl.Name" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="&gt;&gt;MainTabControl.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainTabControl.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;MainTabControl.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="MainTabSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="MainTabSettings.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="MainTabSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>616, 323</value>
-  </data>
-  <data name="MainTabSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="MainTabSettings.Text" xml:space="preserve">
-    <value>設定</value>
-  </data>
-  <data name="&gt;&gt;MainTabSettings.Name" xml:space="preserve">
-    <value>MainTabSettings</value>
-  </data>
-  <data name="&gt;&gt;MainTabSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainTabSettings.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="&gt;&gt;MainTabSettings.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="MainTabTest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 22</value>
-  </data>
-  <data name="MainTabTest.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="MainTabTest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>616, 323</value>
-  </data>
-  <data name="MainTabTest.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="MainTabTest.Text" xml:space="preserve">
-    <value>テスト</value>
-  </data>
-  <data name="&gt;&gt;MainTabTest.Name" xml:space="preserve">
-    <value>MainTabTest</value>
-  </data>
-  <data name="&gt;&gt;MainTabTest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;MainTabTest.Parent" xml:space="preserve">
-    <value>MainTabControl</value>
-  </data>
-  <data name="&gt;&gt;MainTabTest.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <metadata name="MainTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>238, 17</value>
   </metadata>
+  <data name="DeviceListLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DeviceListLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 30</value>
+  </data>
+  <data name="DeviceListLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 12</value>
+  </data>
+  <data name="DeviceListLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="DeviceListLabel.Text" xml:space="preserve">
+    <value>ゲームパッド:</value>
+  </data>
+  <data name="&gt;&gt;DeviceListLabel.Name" xml:space="preserve">
+    <value>DeviceListLabel</value>
+  </data>
+  <data name="&gt;&gt;DeviceListLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeviceListLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DeviceListLabel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GamepadComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="GamepadComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 27</value>
+  </data>
+  <data name="GamepadComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="GamepadComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GamepadComboBox.Name" xml:space="preserve">
+    <value>GamepadComboBox</value>
+  </data>
+  <data name="&gt;&gt;GamepadComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GamepadComboBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GamepadComboBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -603,6 +567,18 @@
   </data>
   <data name="&gt;&gt;MenuFile.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuFileRedetect.Name" xml:space="preserve">
+    <value>MenuFileRedetect</value>
+  </data>
+  <data name="&gt;&gt;MenuFileRedetect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuFileSeparator1.Name" xml:space="preserve">
+    <value>MenuFileSeparator1</value>
+  </data>
+  <data name="&gt;&gt;MenuFileSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;MenuFileQuit.Name" xml:space="preserve">
     <value>MenuFileQuit</value>

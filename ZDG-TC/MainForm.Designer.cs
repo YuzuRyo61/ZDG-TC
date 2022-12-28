@@ -32,6 +32,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.MainMenu = new System.Windows.Forms.MenuStrip();
             this.MenuFile = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuFileRedetect = new System.Windows.Forms.ToolStripMenuItem();
+            this.MenuFileSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.MenuFileQuit = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuHelp = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuHelpHomePage = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,13 +42,11 @@
             this.MenuHelpVersion = new System.Windows.Forms.ToolStripMenuItem();
             this.StatusBar = new System.Windows.Forms.StatusStrip();
             this.StatusBarMessage = new System.Windows.Forms.ToolStripStatusLabel();
-            this.MainTabControl = new System.Windows.Forms.TabControl();
-            this.MainTabSettings = new System.Windows.Forms.TabPage();
-            this.MainTabTest = new System.Windows.Forms.TabPage();
             this.MainTimer = new System.Windows.Forms.Timer(this.components);
+            this.DeviceListLabel = new System.Windows.Forms.Label();
+            this.GamepadComboBox = new System.Windows.Forms.ComboBox();
             this.MainMenu.SuspendLayout();
             this.StatusBar.SuspendLayout();
-            this.MainTabControl.SuspendLayout();
             this.SuspendLayout();
             // 
             // MainMenu
@@ -60,9 +60,22 @@
             // MenuFile
             // 
             this.MenuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MenuFileRedetect,
+            this.MenuFileSeparator1,
             this.MenuFileQuit});
             this.MenuFile.Name = "MenuFile";
             resources.ApplyResources(this.MenuFile, "MenuFile");
+            // 
+            // MenuFileRedetect
+            // 
+            this.MenuFileRedetect.Name = "MenuFileRedetect";
+            resources.ApplyResources(this.MenuFileRedetect, "MenuFileRedetect");
+            this.MenuFileRedetect.Click += new System.EventHandler(this.MenuFileRedetect_Click);
+            // 
+            // MenuFileSeparator1
+            // 
+            this.MenuFileSeparator1.Name = "MenuFileSeparator1";
+            resources.ApplyResources(this.MenuFileSeparator1, "MenuFileSeparator1");
             // 
             // MenuFileQuit
             // 
@@ -116,35 +129,29 @@
             this.StatusBarMessage.Name = "StatusBarMessage";
             resources.ApplyResources(this.StatusBarMessage, "StatusBarMessage");
             // 
-            // MainTabControl
-            // 
-            resources.ApplyResources(this.MainTabControl, "MainTabControl");
-            this.MainTabControl.Controls.Add(this.MainTabSettings);
-            this.MainTabControl.Controls.Add(this.MainTabTest);
-            this.MainTabControl.Name = "MainTabControl";
-            this.MainTabControl.SelectedIndex = 0;
-            // 
-            // MainTabSettings
-            // 
-            this.MainTabSettings.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.MainTabSettings, "MainTabSettings");
-            this.MainTabSettings.Name = "MainTabSettings";
-            // 
-            // MainTabTest
-            // 
-            resources.ApplyResources(this.MainTabTest, "MainTabTest");
-            this.MainTabTest.Name = "MainTabTest";
-            this.MainTabTest.UseVisualStyleBackColor = true;
-            // 
             // MainTimer
             // 
             this.MainTimer.Tick += new System.EventHandler(this.MainTimer_Tick);
+            // 
+            // DeviceListLabel
+            // 
+            resources.ApplyResources(this.DeviceListLabel, "DeviceListLabel");
+            this.DeviceListLabel.Name = "DeviceListLabel";
+            // 
+            // GamepadComboBox
+            // 
+            resources.ApplyResources(this.GamepadComboBox, "GamepadComboBox");
+            this.GamepadComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.GamepadComboBox.FormattingEnabled = true;
+            this.GamepadComboBox.Name = "GamepadComboBox";
+            this.GamepadComboBox.SelectedIndexChanged += new System.EventHandler(this.GamepadComboBox_SelectedIndexChanged);
             // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.MainTabControl);
+            this.Controls.Add(this.GamepadComboBox);
+            this.Controls.Add(this.DeviceListLabel);
             this.Controls.Add(this.StatusBar);
             this.Controls.Add(this.MainMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
@@ -157,7 +164,6 @@
             this.MainMenu.PerformLayout();
             this.StatusBar.ResumeLayout(false);
             this.StatusBar.PerformLayout();
-            this.MainTabControl.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,10 +181,11 @@
         private System.Windows.Forms.ToolStripMenuItem MenuHelpHomePageYuzulia;
         private System.Windows.Forms.ToolStripMenuItem MenuHelpHomePageYuzuRyo61;
         private System.Windows.Forms.ToolStripMenuItem MenuHelpVersion;
-        private System.Windows.Forms.TabControl MainTabControl;
-        private System.Windows.Forms.TabPage MainTabSettings;
-        private System.Windows.Forms.TabPage MainTabTest;
         private System.Windows.Forms.Timer MainTimer;
+        private System.Windows.Forms.ToolStripMenuItem MenuFileRedetect;
+        private System.Windows.Forms.ToolStripSeparator MenuFileSeparator1;
+        private System.Windows.Forms.Label DeviceListLabel;
+        private System.Windows.Forms.ComboBox GamepadComboBox;
     }
 }
 

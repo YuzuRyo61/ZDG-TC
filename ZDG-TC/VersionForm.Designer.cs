@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(VersionForm));
-            this.ProductName = new System.Windows.Forms.Label();
+            this.ProductNameValue = new System.Windows.Forms.Label();
             this.LogoPicture = new System.Windows.Forms.PictureBox();
             this.VersionLabel = new System.Windows.Forms.Label();
             this.VersionValue = new System.Windows.Forms.Label();
@@ -41,14 +41,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.LogoPicture)).BeginInit();
             this.SuspendLayout();
             // 
-            // ProductName
+            // ProductNameValue
             // 
-            this.ProductName.AutoSize = true;
-            this.ProductName.Location = new System.Drawing.Point(82, 12);
-            this.ProductName.Name = "ProductName";
-            this.ProductName.Size = new System.Drawing.Size(81, 12);
-            this.ProductName.TabIndex = 0;
-            this.ProductName.Text = "[ProductName]";
+            this.ProductNameValue.AutoSize = true;
+            this.ProductNameValue.Location = new System.Drawing.Point(82, 12);
+            this.ProductNameValue.Name = "ProductNameValue";
+            this.ProductNameValue.Size = new System.Drawing.Size(81, 12);
+            this.ProductNameValue.TabIndex = 0;
+            this.ProductNameValue.Text = "[ProductName]";
             // 
             // LogoPicture
             // 
@@ -146,7 +146,7 @@
             this.Controls.Add(this.VersionValue);
             this.Controls.Add(this.VersionLabel);
             this.Controls.Add(this.LogoPicture);
-            this.Controls.Add(this.ProductName);
+            this.Controls.Add(this.ProductNameValue);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -163,7 +163,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label ProductName;
+        private System.Windows.Forms.Label ProductNameValue;
         private System.Windows.Forms.PictureBox LogoPicture;
         private System.Windows.Forms.Label VersionLabel;
         private System.Windows.Forms.Label VersionValue;
