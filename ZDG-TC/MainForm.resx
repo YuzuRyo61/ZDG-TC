@@ -120,7 +120,68 @@
   <metadata name="MainMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="MenuFileRedetect.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+R</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="MenuFileRedetect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="MenuFileRedetect.Text" xml:space="preserve">
+    <value>再検出(&amp;R)</value>
+  </data>
+  <data name="MenuFileSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 6</value>
+  </data>
+  <data name="MenuFileQuit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+F4</value>
+  </data>
+  <data name="MenuFileQuit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="MenuFileQuit.Text" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="MenuFile.ShortcutKeyDisplayString" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MenuFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 20</value>
+  </data>
+  <data name="MenuFile.Text" xml:space="preserve">
+    <value>ファイル(&amp;F)</value>
+  </data>
+  <data name="MenuHelpHomePageYuzulia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="MenuHelpHomePageYuzulia.Text" xml:space="preserve">
+    <value>Yuzuliaサイト</value>
+  </data>
+  <data name="MenuHelpHomePageYuzuRyo61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="MenuHelpHomePageYuzuRyo61.Text" xml:space="preserve">
+    <value>YuzuRyo61.me</value>
+  </data>
+  <data name="MenuHelpHomePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="MenuHelpHomePage.Text" xml:space="preserve">
+    <value>作者のホームページ</value>
+  </data>
+  <data name="MenuHelpVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="MenuHelpVersion.Text" xml:space="preserve">
+    <value>バージョン情報(&amp;A)</value>
+  </data>
+  <data name="MenuHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="MenuHelp.Text" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
   <data name="MainMenu.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -141,72 +202,17 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MainMenu.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="MenuFile.ShortcutKeyDisplayString" xml:space="preserve">
-    <value />
-  </data>
-  <data name="MenuFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>67, 20</value>
-  </data>
-  <data name="MenuFile.Text" xml:space="preserve">
-    <value>ファイル(&amp;F)</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="MenuFileRedetect.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Ctrl+R</value>
-  </data>
-  <data name="MenuFileRedetect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
-  </data>
-  <data name="MenuFileRedetect.Text" xml:space="preserve">
-    <value>再検出(&amp;R)</value>
-  </data>
-  <data name="MenuFileSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 6</value>
-  </data>
-  <data name="MenuFileQuit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
-    <value>Alt+F4</value>
-  </data>
-  <data name="MenuFileQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
-  </data>
-  <data name="MenuFileQuit.Text" xml:space="preserve">
-    <value>終了(&amp;X)</value>
-  </data>
-  <data name="MenuHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
-  </data>
-  <data name="MenuHelp.Text" xml:space="preserve">
-    <value>ヘルプ(&amp;H)</value>
-  </data>
-  <data name="MenuHelpHomePage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="MenuHelpHomePage.Text" xml:space="preserve">
-    <value>作者のホームページ</value>
-  </data>
-  <data name="MenuHelpHomePageYuzulia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="MenuHelpHomePageYuzulia.Text" xml:space="preserve">
-    <value>Yuzuliaサイト</value>
-  </data>
-  <data name="MenuHelpHomePageYuzuRyo61.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="MenuHelpHomePageYuzuRyo61.Text" xml:space="preserve">
-    <value>YuzuRyo61.me</value>
-  </data>
-  <data name="MenuHelpVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="MenuHelpVersion.Text" xml:space="preserve">
-    <value>バージョン情報(&amp;A)</value>
+    <value>27</value>
   </data>
   <metadata name="StatusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>133, 17</value>
   </metadata>
+  <data name="StatusBarMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="StatusBarMessage.Text" xml:space="preserve">
+    <value>初期化中</value>
+  </data>
   <data name="StatusBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 379</value>
   </data>
@@ -226,13 +232,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;StatusBar.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="StatusBarMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 17</value>
-  </data>
-  <data name="StatusBarMessage.Text" xml:space="preserve">
-    <value>[Status]</value>
+    <value>26</value>
   </data>
   <metadata name="MainTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>238, 17</value>
@@ -262,7 +262,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DeviceListLabel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>25</value>
   </data>
   <data name="GamepadComboBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -286,7 +286,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GamepadComboBox.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>24</value>
   </data>
   <data name="MasconLevel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -295,16 +295,16 @@
     <value>NoControl</value>
   </data>
   <data name="MasconLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 58</value>
+    <value>49, 50</value>
   </data>
   <data name="MasconLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 12</value>
+    <value>10, 12</value>
   </data>
   <data name="MasconLevel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="MasconLevel.Text" xml:space="preserve">
-    <value>[MasconLevel]</value>
+    <value>?</value>
   </data>
   <data name="&gt;&gt;MasconLevel.Name" xml:space="preserve">
     <value>MasconLevel</value>
@@ -316,7 +316,643 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MasconLevel.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="MasconLevelLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="MasconLevelLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="MasconLevelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 50</value>
+  </data>
+  <data name="MasconLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 12</value>
+  </data>
+  <data name="MasconLevelLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="MasconLevelLabel.Text" xml:space="preserve">
+    <value>ノッチ:</value>
+  </data>
+  <data name="&gt;&gt;MasconLevelLabel.Name" xml:space="preserve">
+    <value>MasconLevelLabel</value>
+  </data>
+  <data name="&gt;&gt;MasconLevelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MasconLevelLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;MasconLevelLabel.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="ButtonACombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ButtonACombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 77</value>
+  </data>
+  <data name="ButtonACombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="ButtonACombo.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ButtonACombo.Name" xml:space="preserve">
+    <value>ButtonACombo</value>
+  </data>
+  <data name="&gt;&gt;ButtonACombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonACombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonACombo.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="ButtonALabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonALabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonALabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 80</value>
+  </data>
+  <data name="ButtonALabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 12</value>
+  </data>
+  <data name="ButtonALabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ButtonALabel.Text" xml:space="preserve">
+    <value>Aボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonALabel.Name" xml:space="preserve">
+    <value>ButtonALabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonALabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonALabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonALabel.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="ButtonBLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonBLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonBLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 106</value>
+  </data>
+  <data name="ButtonBLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 12</value>
+  </data>
+  <data name="ButtonBLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="ButtonBLabel.Text" xml:space="preserve">
+    <value>Bボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonBLabel.Name" xml:space="preserve">
+    <value>ButtonBLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonBLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonBLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonBLabel.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="ButtonBCombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ButtonBCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 103</value>
+  </data>
+  <data name="ButtonBCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="ButtonBCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ButtonBCombo.Name" xml:space="preserve">
+    <value>ButtonBCombo</value>
+  </data>
+  <data name="&gt;&gt;ButtonBCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonBCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonBCombo.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="ButtonXLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonXLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonXLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 132</value>
+  </data>
+  <data name="ButtonXLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="ButtonXLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="ButtonXLabel.Text" xml:space="preserve">
+    <value>Xボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonXLabel.Name" xml:space="preserve">
+    <value>ButtonXLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonXLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonXLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonXLabel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="ButtonXCombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ButtonXCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 129</value>
+  </data>
+  <data name="ButtonXCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="ButtonXCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ButtonXCombo.Name" xml:space="preserve">
+    <value>ButtonXCombo</value>
+  </data>
+  <data name="&gt;&gt;ButtonXCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonXCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonXCombo.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ButtonYLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonYLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonYLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 158</value>
+  </data>
+  <data name="ButtonYLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 12</value>
+  </data>
+  <data name="ButtonYLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="ButtonYLabel.Text" xml:space="preserve">
+    <value>Yボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonYLabel.Name" xml:space="preserve">
+    <value>ButtonYLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonYLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonYLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonYLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="ButtonYCombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ButtonYCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 155</value>
+  </data>
+  <data name="ButtonYCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="ButtonYCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;ButtonYCombo.Name" xml:space="preserve">
+    <value>ButtonYCombo</value>
+  </data>
+  <data name="&gt;&gt;ButtonYCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonYCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonYCombo.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="ButtonPlusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonPlusLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonPlusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 184</value>
+  </data>
+  <data name="ButtonPlusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="ButtonPlusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ButtonPlusLabel.Text" xml:space="preserve">
+    <value>+ボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlusLabel.Name" xml:space="preserve">
+    <value>ButtonPlusLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlusLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlusLabel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ButtonPlusCombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ButtonPlusCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 181</value>
+  </data>
+  <data name="ButtonPlusCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="ButtonPlusCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlusCombo.Name" xml:space="preserve">
+    <value>ButtonPlusCombo</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlusCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlusCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonPlusCombo.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="ButtonMinusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonMinusLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonMinusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 210</value>
+  </data>
+  <data name="ButtonMinusLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="ButtonMinusLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ButtonMinusLabel.Text" xml:space="preserve">
+    <value>-ボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinusLabel.Name" xml:space="preserve">
+    <value>ButtonMinusLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinusLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinusLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinusLabel.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="ButtonMinusCombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ButtonMinusCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 207</value>
+  </data>
+  <data name="ButtonMinusCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="ButtonMinusCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinusCombo.Name" xml:space="preserve">
+    <value>ButtonMinusCombo</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinusCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinusCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonMinusCombo.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ButtonLLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonLLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonLLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 236</value>
+  </data>
+  <data name="ButtonLLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 12</value>
+  </data>
+  <data name="ButtonLLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="ButtonLLabel.Text" xml:space="preserve">
+    <value>Lボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonLLabel.Name" xml:space="preserve">
+    <value>ButtonLLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonLLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonLLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonLLabel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="ButtonLCombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ButtonLCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 233</value>
+  </data>
+  <data name="ButtonLCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="ButtonLCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ButtonLCombo.Name" xml:space="preserve">
+    <value>ButtonLCombo</value>
+  </data>
+  <data name="&gt;&gt;ButtonLCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonLCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonLCombo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="ButtonRLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonRLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonRLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 262</value>
+  </data>
+  <data name="ButtonRLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 12</value>
+  </data>
+  <data name="ButtonRLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="ButtonRLabel.Text" xml:space="preserve">
+    <value>Rボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonRLabel.Name" xml:space="preserve">
+    <value>ButtonRLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonRLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonRLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonRLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="ButtonRCombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ButtonRCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 259</value>
+  </data>
+  <data name="ButtonRCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="ButtonRCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;ButtonRCombo.Name" xml:space="preserve">
+    <value>ButtonRCombo</value>
+  </data>
+  <data name="&gt;&gt;ButtonRCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonRCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonRCombo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ButtonZLLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonZLLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonZLLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 288</value>
+  </data>
+  <data name="ButtonZLLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 12</value>
+  </data>
+  <data name="ButtonZLLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="ButtonZLLabel.Text" xml:space="preserve">
+    <value>ZLボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonZLLabel.Name" xml:space="preserve">
+    <value>ButtonZLLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonZLLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonZLLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonZLLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ButtonZRLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonZRLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonZRLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 314</value>
+  </data>
+  <data name="ButtonZRLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 12</value>
+  </data>
+  <data name="ButtonZRLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="ButtonZRLabel.Text" xml:space="preserve">
+    <value>ZRボタン:</value>
+  </data>
+  <data name="&gt;&gt;ButtonZRLabel.Name" xml:space="preserve">
+    <value>ButtonZRLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonZRLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonZRLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonZRLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonZRCombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ButtonZRCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>81, 311</value>
+  </data>
+  <data name="ButtonZRCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>531, 20</value>
+  </data>
+  <data name="ButtonZRCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;ButtonZRCombo.Name" xml:space="preserve">
+    <value>ButtonZRCombo</value>
+  </data>
+  <data name="&gt;&gt;ButtonZRCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonZRCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonZRCombo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ButtonZLReservedLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ButtonZLReservedLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonZLReservedLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>79, 288</value>
+  </data>
+  <data name="ButtonZLReservedLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 12</value>
+  </data>
+  <data name="ButtonZLReservedLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="ButtonZLReservedLabel.Text" xml:space="preserve">
+    <value>(非常ブレーキで予約済み)</value>
+  </data>
+  <data name="&gt;&gt;ButtonZLReservedLabel.Name" xml:space="preserve">
+    <value>ButtonZLReservedLabel</value>
+  </data>
+  <data name="&gt;&gt;ButtonZLReservedLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonZLReservedLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonZLReservedLabel.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ReverserLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ReverserLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ReverserLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 62</value>
+  </data>
+  <data name="ReverserLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 12</value>
+  </data>
+  <data name="ReverserLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="ReverserLabel.Text" xml:space="preserve">
+    <value>レバーサ:</value>
+  </data>
+  <data name="&gt;&gt;ReverserLabel.Name" xml:space="preserve">
+    <value>ReverserLabel</value>
+  </data>
+  <data name="&gt;&gt;ReverserLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReverserLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReverserLabel.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="ReverserValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ReverserValue.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ReverserValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 62</value>
+  </data>
+  <data name="ReverserValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 12</value>
+  </data>
+  <data name="ReverserValue.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="ReverserValue.Text" xml:space="preserve">
+    <value>前進</value>
+  </data>
+  <data name="&gt;&gt;ReverserValue.Name" xml:space="preserve">
+    <value>ReverserValue</value>
+  </data>
+  <data name="&gt;&gt;ReverserValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ReverserValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ReverserValue.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
