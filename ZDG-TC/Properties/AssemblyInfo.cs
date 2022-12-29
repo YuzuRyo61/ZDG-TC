@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // アセンブリに関する一般情報は以下の属性セットをとおして制御されます。
 // 制御されます。アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更します。
-[assembly: AssemblyTitle("ZDG-TC: TrainCrew Mascon adapter software - A Yuzulia Project")]
-[assembly: AssemblyDescription("ZDG-TC: TrainCrew Mascon adapter software - A Yuzulia Project")]
+[assembly: AssemblyTitle("ZDG-TC: TRAIN CREW Mascon adapter software - A Yuzulia Project")]
+[assembly: AssemblyDescription("ZDG-TC: TRAIN CREW Mascon adapter software - A Yuzulia Project")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Yuzulia")]
 [assembly: AssemblyProduct("ZDG-TC")]
-[assembly: AssemblyCopyright("© 2022 Yuzulia / YuzuRyo61 All Rights Reserved.")]
+[assembly: AssemblyCopyright("© 2022 Yuzulia / YuzuRyo61.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
