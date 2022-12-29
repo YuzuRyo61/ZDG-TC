@@ -11,6 +11,8 @@ namespace ZDG_TC
 {
     public partial class MainForm : Form
     {
+        // マスコンの既定のデバイス名
+        private const string CONTROLLER_DEFAULT_NAME = "One Handle MasCon for Nintendo Switch";
         // コントローラーが押されている場合と押されていない場合の色の値
         private Color CONTROLLER_ON_COLOR { get; } = Color.Red;
         private Color CONTROLLER_OFF_COLOR { get; } = SystemColors.ControlText;
@@ -130,10 +132,13 @@ namespace ZDG_TC
 
         private void DetectController()
         {
+            bool isFoundDefaultNameDevice = false;
             List <ControllerItem> items = new List<ControllerItem>();
             foreach (DeviceInstance device in di.GetDevices(DeviceType.Gamepad, DeviceEnumerationFlags.AllDevices))
             {
                 items.Add(new ControllerItem(device.InstanceName, device.InstanceGuid));
+                // デフォルトのコントローラー名だったらtrueにする
+                if (device.InstanceName == CONTROLLER_DEFAULT_NAME) isFoundDefaultNameDevice = true;
             }
 
             GamepadComboBox.DataSource = items;
@@ -142,7 +147,14 @@ namespace ZDG_TC
 
             if (items.Count > 0)
             {
-                GamepadComboBox.SelectedIndex = 0;
+                if (isFoundDefaultNameDevice)
+                {
+                    GamepadComboBox.SelectedText = CONTROLLER_DEFAULT_NAME;
+                }
+                else
+                {
+                    GamepadComboBox.SelectedIndex = 0;
+                }
                 SetupJoystick();
             }
         }
@@ -412,6 +424,7 @@ namespace ZDG_TC
             return (ControllerItem)GamepadComboBox.SelectedItem;
         }
 
+        // ジョイスティックのセットアップ
         private void SetupJoystick()
         {
             joystick?.Dispose();
