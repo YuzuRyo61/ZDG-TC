@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace ZDG_TC
+namespace YZLIA_ZDGTC
 {
     internal static class Program
     {

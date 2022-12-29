@@ -126,19 +126,37 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="MenuFileRedetect.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>196, 22</value>
   </data>
   <data name="MenuFileRedetect.Text" xml:space="preserve">
     <value>再検出(&amp;R)</value>
   </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 6</value>
+  </data>
+  <data name="MenuFileSave.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="MenuFileSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="MenuFileSave.Text" xml:space="preserve">
+    <value>保存(&amp;S)</value>
+  </data>
+  <data name="MenuFileReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 22</value>
+  </data>
+  <data name="MenuFileReset.Text" xml:space="preserve">
+    <value>設定を初期化して再起動</value>
+  </data>
   <data name="MenuFileSeparator1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>162, 6</value>
+    <value>193, 6</value>
   </data>
   <data name="MenuFileQuit.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
     <value>Alt+F4</value>
   </data>
   <data name="MenuFileQuit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 22</value>
+    <value>196, 22</value>
   </data>
   <data name="MenuFileQuit.Text" xml:space="preserve">
     <value>終了(&amp;X)</value>
@@ -151,30 +169,6 @@
   </data>
   <data name="MenuFile.Text" xml:space="preserve">
     <value>ファイル(&amp;F)</value>
-  </data>
-  <data name="MenuHelpHomePageYuzulia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="MenuHelpHomePageYuzulia.Text" xml:space="preserve">
-    <value>Yuzuliaサイト</value>
-  </data>
-  <data name="MenuHelpHomePageYuzuRyo61.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 22</value>
-  </data>
-  <data name="MenuHelpHomePageYuzuRyo61.Text" xml:space="preserve">
-    <value>YuzuRyo61.me</value>
-  </data>
-  <data name="MenuHelpHomePage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="MenuHelpHomePage.Text" xml:space="preserve">
-    <value>作者のホームページ</value>
-  </data>
-  <data name="MenuHelpVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 22</value>
-  </data>
-  <data name="MenuHelpVersion.Text" xml:space="preserve">
-    <value>バージョン情報(&amp;A)</value>
   </data>
   <data name="MenuHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 20</value>
@@ -204,15 +198,33 @@
   <data name="&gt;&gt;MainMenu.ZOrder" xml:space="preserve">
     <value>27</value>
   </data>
+  <data name="MenuHelpHomePage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="MenuHelpHomePage.Text" xml:space="preserve">
+    <value>作者のホームページ</value>
+  </data>
+  <data name="MenuHelpHomePageYuzulia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="MenuHelpHomePageYuzulia.Text" xml:space="preserve">
+    <value>Yuzuliaサイト</value>
+  </data>
+  <data name="MenuHelpHomePageYuzuRyo61.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 22</value>
+  </data>
+  <data name="MenuHelpHomePageYuzuRyo61.Text" xml:space="preserve">
+    <value>YuzuRyo61.me</value>
+  </data>
+  <data name="MenuHelpVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 22</value>
+  </data>
+  <data name="MenuHelpVersion.Text" xml:space="preserve">
+    <value>バージョン情報(&amp;A)</value>
+  </data>
   <metadata name="StatusBar.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>133, 17</value>
   </metadata>
-  <data name="StatusBarMessage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 17</value>
-  </data>
-  <data name="StatusBarMessage.Text" xml:space="preserve">
-    <value>初期化中</value>
-  </data>
   <data name="StatusBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 379</value>
   </data>
@@ -233,6 +245,12 @@
   </data>
   <data name="&gt;&gt;StatusBar.ZOrder" xml:space="preserve">
     <value>26</value>
+  </data>
+  <data name="StatusBarMessage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="StatusBarMessage.Text" xml:space="preserve">
+    <value>初期化中</value>
   </data>
   <metadata name="MainTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>238, 17</value>
@@ -1293,6 +1311,24 @@
   </data>
   <data name="&gt;&gt;MainTimer.Type" xml:space="preserve">
     <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuFileSave.Name" xml:space="preserve">
+    <value>MenuFileSave</value>
+  </data>
+  <data name="&gt;&gt;MenuFileSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;MenuFileReset.Name" xml:space="preserve">
+    <value>MenuFileReset</value>
+  </data>
+  <data name="&gt;&gt;MenuFileReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainForm</value>

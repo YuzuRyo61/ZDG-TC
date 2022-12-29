@@ -1,4 +1,4 @@
-﻿namespace ZDG_TC
+﻿namespace YZLIA_ZDGTC
 {
     partial class VersionForm
     {

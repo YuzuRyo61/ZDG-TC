@@ -1,4 +1,4 @@
-﻿namespace ZDG_TC
+﻿namespace YZLIA_ZDGTC
 {
     partial class MainForm
     {
@@ -69,6 +69,9 @@
             this.ButtonZLReservedLabel = new System.Windows.Forms.Label();
             this.ReverserLabel = new System.Windows.Forms.Label();
             this.ReverserValue = new System.Windows.Forms.Label();
+            this.MenuFileSave = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.MenuFileReset = new System.Windows.Forms.ToolStripMenuItem();
             this.MainMenu.SuspendLayout();
             this.StatusBar.SuspendLayout();
             this.SuspendLayout();
@@ -85,6 +88,9 @@
             // 
             this.MenuFile.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.MenuFileRedetect,
+            this.toolStripSeparator1,
+            this.MenuFileSave,
+            this.MenuFileReset,
             this.MenuFileSeparator1,
             this.MenuFileQuit});
             this.MenuFile.Name = "MenuFile";
@@ -332,6 +338,23 @@
             resources.ApplyResources(this.ReverserValue, "ReverserValue");
             this.ReverserValue.Name = "ReverserValue";
             // 
+            // MenuFileSave
+            // 
+            this.MenuFileSave.Name = "MenuFileSave";
+            resources.ApplyResources(this.MenuFileSave, "MenuFileSave");
+            this.MenuFileSave.Click += new System.EventHandler(this.MenuFileSave_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            resources.ApplyResources(this.toolStripSeparator1, "toolStripSeparator1");
+            // 
+            // MenuFileReset
+            // 
+            this.MenuFileReset.Name = "MenuFileReset";
+            resources.ApplyResources(this.MenuFileReset, "MenuFileReset");
+            this.MenuFileReset.Click += new System.EventHandler(this.MenuFileReset_Click);
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
@@ -420,6 +443,9 @@
         private System.Windows.Forms.Label ButtonZLReservedLabel;
         private System.Windows.Forms.Label ReverserLabel;
         private System.Windows.Forms.Label ReverserValue;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem MenuFileSave;
+        private System.Windows.Forms.ToolStripMenuItem MenuFileReset;
     }
 }
 

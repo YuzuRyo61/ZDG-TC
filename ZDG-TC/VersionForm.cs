@@ -4,7 +4,7 @@ using System.IO;
 using System.Reflection;
 using System.Windows.Forms;
 
-namespace ZDG_TC
+namespace YZLIA_ZDGTC
 {
     public partial class VersionForm : Form
     {

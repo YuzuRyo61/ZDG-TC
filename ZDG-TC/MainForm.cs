@@ -1,13 +1,13 @@
 ﻿using System;
+using System.Configuration;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-using SharpDX;
 using SharpDX.DirectInput;
 using TrainCrew;
 
-namespace ZDG_TC
+namespace YZLIA_ZDGTC
 {
     public partial class MainForm : Form
     {
@@ -27,7 +27,9 @@ namespace ZDG_TC
         private int previousPOVValue = -1;
         // レバーサ位置 (1: 前進, 0: 中立, -1: 後進)
         private int reverserDir = 1;
-        
+        // 設定を初期化する？
+        private bool isResetConfig = false;
+
         // コントローラーコンボボックス用のリストアイテムクラス
         public class ControllerItem
         {
@@ -56,12 +58,15 @@ namespace ZDG_TC
             {
                 return new List<SWEnumItem>() {
                     new SWEnumItem("(未設定)", null),
+                    /*
+                    // マスコンと干渉するため選択肢から外してます
                     new SWEnumItem("力行側へ1段", InputAction.NotchUp),
                     new SWEnumItem("制動側へ1段", InputAction.NotchDw),
                     new SWEnumItem("ノッチをNにする", InputAction.NotchN),
                     new SWEnumItem("ノッチをN側へ1段", InputAction.NotchToN),
                     new SWEnumItem("EBノッチ", InputAction.NotchEB),
                     new SWEnumItem("B1ノッチ", InputAction.NotchB1),
+                    */
                     new SWEnumItem("勾配起動", InputAction.GradientStart),
                     new SWEnumItem("ブザー", InputAction.Buzzer),
                     new SWEnumItem("空笛", InputAction.HornAir),
@@ -92,36 +97,54 @@ namespace ZDG_TC
             // コントローラーの割当のコンボボックスの設定 ↓
             // Aボタン
             ButtonACombo.DataSource = SWEnumItem.GetList();
-            ButtonACombo.SelectedValue = InputAction.HornEle; // 電笛
+            LoadControllerValue("ButtonA", ButtonACombo);
 
             // Bボタン
             ButtonBCombo.DataSource = SWEnumItem.GetList();
-            ButtonBCombo.SelectedValue = InputAction.Buzzer; // ブザー
+            LoadControllerValue("ButtonB", ButtonBCombo);
 
             // Xボタン
             ButtonXCombo.DataSource = SWEnumItem.GetList();
-            ButtonXCombo.SelectedValue = InputAction.HornAir; // 空笛
+            LoadControllerValue("ButtonX", ButtonXCombo);
 
             // Yボタン
             ButtonYCombo.DataSource = SWEnumItem.GetList();
-            ButtonYCombo.SelectedValue = InputAction.EBReset; // EBリセット
+            LoadControllerValue("ButtonY", ButtonYCombo);
 
             // Lボタン
             ButtonLCombo.DataSource = SWEnumItem.GetList();
+            LoadControllerValue("ButtonL", ButtonLCombo);
 
             // Rボタン
             ButtonRCombo.DataSource = SWEnumItem.GetList();
+            LoadControllerValue("ButtonR", ButtonRCombo);
 
             // +ボタン
             ButtonPlusCombo.DataSource = SWEnumItem.GetList();
-            ButtonPlusCombo.SelectedValue = InputAction.PauseMenu;
+            LoadControllerValue("ButtonPlus", ButtonPlusCombo);
 
             // -ボタン
             ButtonMinusCombo.DataSource = SWEnumItem.GetList();
+            LoadControllerValue("ButtonMinus", ButtonMinusCombo);
 
             // ZRボタン
             ButtonZRCombo.DataSource = SWEnumItem.GetList();
+            LoadControllerValue("ButtonZR", ButtonZRCombo);
             // コントローラーの割当のコンボボックスの設定 ↑
+        }
+
+        // App.configから値を読み取る
+        private void LoadControllerValue(string key, ComboBox combo)
+        {
+            var value = (int)Properties.Settings.Default[key];
+            if (value >= 0)
+            {
+                combo.SelectedValue = (InputAction)Enum.ToObject(typeof(InputAction), value);
+            }
+            else
+            {
+                combo.SelectedIndex = 0;
+            }
         }
 
         // VersionFormの初期化
@@ -184,7 +207,7 @@ namespace ZDG_TC
             TrainCrewInput.Init();
 
             // タイマー起動
-            StatusBarMessage.Text = "タイマー起動";
+            StatusBarMessage.Text = "タイマー起動中";
             MainTimer.Enabled = true;
 
             DetectController();
@@ -206,6 +229,34 @@ namespace ZDG_TC
             // TrainCrew入力の廃棄処理
             StatusBarMessage.Text = "TrainCrewInputを停止中";
             TrainCrewInput.Dispose();
+
+            // 設定ファイルの保存
+            if (!isResetConfig) SaveConfiguration();
+        }
+
+        // 設定の保存
+        private void SaveConfiguration()
+        {
+            StatusBarMessage.Text = "設定を保存中";
+            Properties.Settings.Default["ButtonA"] = ToConfigValue(ButtonACombo);
+            Properties.Settings.Default["ButtonB"] = ToConfigValue(ButtonBCombo);
+            Properties.Settings.Default["ButtonX"] = ToConfigValue(ButtonXCombo);
+            Properties.Settings.Default["ButtonY"] = ToConfigValue(ButtonYCombo);
+            Properties.Settings.Default["ButtonL"] = ToConfigValue(ButtonLCombo);
+            Properties.Settings.Default["ButtonR"] = ToConfigValue(ButtonRCombo);
+            Properties.Settings.Default["ButtonPlus"] = ToConfigValue(ButtonPlusCombo);
+            Properties.Settings.Default["ButtonMinus"] = ToConfigValue(ButtonMinusCombo);
+            Properties.Settings.Default["ButtonZR"] = ToConfigValue(ButtonZRCombo);
+
+            Properties.Settings.Default.Save();
+            StatusBarMessage.Text = "保存済み";
+        }
+
+        private int ToConfigValue(ComboBox c)
+        {
+            var value = c.SelectedValue;
+            if (value == null) return -1;
+            return (int)(InputAction)value;
         }
 
         // タイマー処理
@@ -466,6 +517,22 @@ namespace ZDG_TC
         private void GamepadComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             SetupJoystick();
+        }
+
+        private void MenuFileSave_Click(object sender, EventArgs e)
+        {
+            SaveConfiguration();
+        }
+
+        private void MenuFileReset_Click(object sender, EventArgs e)
+        {
+            DialogResult res = MessageBox.Show("設定を初期化してアプリを再起動します。よろしいですか？", "ZDG-TC", MessageBoxButtons.OKCancel, MessageBoxIcon.Exclamation);
+            if (res == DialogResult.OK)
+            {
+                isResetConfig = true;
+                Properties.Settings.Default.Reset();
+                Application.Restart();
+            }
         }
     }
 }
