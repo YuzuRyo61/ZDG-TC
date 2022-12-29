@@ -45,6 +45,7 @@
             this.MainTimer = new System.Windows.Forms.Timer(this.components);
             this.DeviceListLabel = new System.Windows.Forms.Label();
             this.GamepadComboBox = new System.Windows.Forms.ComboBox();
+            this.MasconLevel = new System.Windows.Forms.Label();
             this.MainMenu.SuspendLayout();
             this.StatusBar.SuspendLayout();
             this.SuspendLayout();
@@ -131,6 +132,7 @@
             // 
             // MainTimer
             // 
+            this.MainTimer.Interval = 40;
             this.MainTimer.Tick += new System.EventHandler(this.MainTimer_Tick);
             // 
             // DeviceListLabel
@@ -146,10 +148,16 @@
             this.GamepadComboBox.Name = "GamepadComboBox";
             this.GamepadComboBox.SelectedIndexChanged += new System.EventHandler(this.GamepadComboBox_SelectedIndexChanged);
             // 
+            // MasconLevel
+            // 
+            resources.ApplyResources(this.MasconLevel, "MasconLevel");
+            this.MasconLevel.Name = "MasconLevel";
+            // 
             // MainForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.MasconLevel);
             this.Controls.Add(this.GamepadComboBox);
             this.Controls.Add(this.DeviceListLabel);
             this.Controls.Add(this.StatusBar);
@@ -186,6 +194,7 @@
         private System.Windows.Forms.ToolStripSeparator MenuFileSeparator1;
         private System.Windows.Forms.Label DeviceListLabel;
         private System.Windows.Forms.ComboBox GamepadComboBox;
+        private System.Windows.Forms.Label MasconLevel;
     }
 }
 
