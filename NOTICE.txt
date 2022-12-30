@@ -1,9 +1,9 @@
-���̃\�t�g�E�F�A���J������ɂ�����Aacty(�a�����C��)����z�z����Ă���u�R���g���[���J���p�L�b�g�i���j�v�ɂ���uTrainCrewInput.dll�v���g�p���Ă��܂��B
-����dll�̓\�t�g�E�F�A���Ĕz�z����ꍇ�Ɍ��藘�p���\�ƂȂ��Ă���A�{�\�t�g�E�F�A(ZDG-TC)�̃��C�Z���X�ɂ͓��Ă͂܂�Ȃ����Ƃ𗯈ӂ̏�A�����p���������B
+このソフトウェアを開発するにあたり、acty(溝月レイル)から配布されている「コントローラ開発用キット（仮）」にある「TrainCrewInput.dll」を使用しています。
+このdllはソフトウェアを再配布する場合に限り利用が可能となっており、本ソフトウェア(ZDG-TC)のライセンスには当てはまらないことを留意の上、ご利用ください。
 
-�R���g���[���J���p�L�b�g�i���j:
+コントローラ開発用キット（仮）:
 https://acty-soft.com/traincrew/controller/
 
 ---
 
-Yuzulia���S��YuzuRyo61����̃g���[�h�}�[�N�ƂȂ�܂��B���K�I�Ȉ��p���@�Ȃǂ͕ʂƂ��āAYuzulia���S�̖��f���p�͋�����܂���B
+YuzuliaロゴはYuzuRyo61著作のトレードマークとなります。慣習的な引用方法などは別として、Yuzuliaロゴの無断利用は許可されません。
