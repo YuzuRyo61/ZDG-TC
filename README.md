@@ -12,6 +12,12 @@ https://www.zuiki.co.jp/mascon-excl/
 TRAIN CREWについてはこちら:
 https://acty-soft.com/traincrew/
 
+# ダウンロード
+
+本GitHubリポジトリのReleasesからダウンロードいただけます。
+
+https://github.com/YuzuRyo61/ZDG-TC/releases/latest
+
 # 使い方
 
 0. SteamでTRAIN CREWを所有している必要があります。所有していない場合は、Steamストアから入手できます。
